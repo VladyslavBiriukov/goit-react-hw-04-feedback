@@ -1,0 +1,22 @@
+.section{
+    height: 50vh;
+    padding: 20px 200px;
+}
+.section__title {
+    font-family: 'IBM Plex Mono', monospace;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    cursor: default;
+    transition: text-shadow 250ms ease-in-out, scale 250ms ease-in-out;
+
+    color: rgb(172, 114, 42);
+    -webkit-text-stroke: 1px rgb(138, 84, 18);
+}
+.section__title:hover {
+    scale: 1.03;
+    text-shadow: 1px 1px 2px yellowgreen;
+}

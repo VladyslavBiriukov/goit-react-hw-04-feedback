@@ -1,0 +1,17 @@
+.statistics {
+    list-style: none;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.statistics__iteam {
+    font-family: 'IBM Plex Mono', monospace;
+    cursor: default;
+    transition: color 250ms ease-in-out, text-shadow 300ms ease-in-out;
+}
+.statistics__iteam:hover {
+    color: yellowgreen;
+    text-shadow: yellowgreen 1px 0 10px;
+}
